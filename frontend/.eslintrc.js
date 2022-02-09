@@ -12,6 +12,12 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'prettier',
   ],
+  overrides: [
+    {
+      extends: ['plugin:testing-library/react'],
+      files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+    },
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -22,7 +28,7 @@ module.exports = {
     sourceType: 'module',
     tsconfigRootDir: __dirname,
   },
-  plugins: ['@typescript-eslint', 'html'],
+  plugins: ['@typescript-eslint', 'html', 'testing-library'],
   root: true,
   settings: {
     react: { version: 'detect' },
