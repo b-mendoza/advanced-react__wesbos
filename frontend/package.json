@@ -1,16 +1,13 @@
 {
   "name": "sick-fits-frontend",
   "version": "2.0.0",
-  "description": "Sick Fits! An example React, GraphQL, Next and Apollo",
-  "main": "index.js",
   "scripts": {
-    "dev": "next -p 7777",
     "build": "next build",
-    "start": "next start -p 7777",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start",
     "test": "NODE_ENV=test jest --watch"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@apollo/client": "3.4.0",
     "@apollo/link-error": "^2.0.0-beta.3",
