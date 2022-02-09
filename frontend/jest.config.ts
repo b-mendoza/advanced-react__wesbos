@@ -11,10 +11,10 @@ const jestConfig: Config.InitialOptions = {
     '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
 
     // Handle CSS imports (without CSS modules)
-    '^.+\\.(css|sass|scss)$': '<rootDir>/__mocks__/styleMock.js',
+    '^.+\\.(css|sass|scss)$': '<rootDir>/__mocks__/styleMock.ts',
 
     // Handle Image imports
-    '^.+\\.(jpg|jpeg|png|gif|webp|avif|svg)$': `<rootDir>/__mocks__/fileMock.js`,
+    '^.+\\.(jpg|jpeg|png|gif|webp|avif|svg)$': `<rootDir>/__mocks__/fileMock.ts`,
 
     // Handle Module Aliases
     '^@/components/(.*)$': '<rootDir>/components/$1',
