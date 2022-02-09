@@ -1,5 +1,11 @@
 {
-  "name": "sick-fits-frontend",
+  "author": {
+    "email": "bmendoza.dev@hotmail.com",
+    "name": "Bryan Mendoza"
+  },
+  "description": "Sick Fits! An example React.js, GraphQL, Next.js and Apollo",
+  "license": "MIT",
+  "name": "sick-fits__frontend",
   "version": "2.0.0",
   "scripts": {
     "build": "next build",
