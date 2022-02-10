@@ -1,38 +1,8 @@
 {
   "name": "sick-fits-backend",
   "version": "2.0.0",
-  "private": true,
-  "author": "Wes Bos",
-  "license": "MIT",
   "scripts": {
-    "dev": "keystone-next",
-    "seed-data": "keystone-next --seed-data"
-  },
-  "eslintConfig": {
-    "extends": "wesbos/typescript.js",
-    "rules": {
-      "@typescript-eslint/no-unsafe-assignment": 0
-    }
-  },
-  "babel": {
-    "presets": [
-      [
-        "@babel/preset-env",
-        {
-          "targets": {
-            "node": 10,
-            "browsers": [
-              "last 2 chrome versions",
-              "last 2 firefox versions",
-              "last 2 safari versions",
-              "last 2 edge versions"
-            ]
-          }
-        }
-      ],
-      "@babel/preset-react",
-      "@babel/preset-typescript"
-    ]
+    "dev": "keystone dev"
   },
   "dependencies": {
     "@keystone-next/admin-ui": "^8.0.1",
