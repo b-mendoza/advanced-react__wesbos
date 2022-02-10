@@ -1,5 +1,11 @@
 {
-  "name": "sick-fits-backend",
+  "author": {
+    "email": "bmendoza.dev@hotmail.com",
+    "name": "Bryan Mendoza"
+  },
+  "license": "MIT",
+  "name": "sick-fits__backend",
+  "private": true,
   "version": "2.0.0",
   "scripts": {
     "dev": "keystone dev"
