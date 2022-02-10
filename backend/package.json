@@ -8,7 +8,9 @@
   "private": true,
   "version": "2.0.0",
   "scripts": {
-    "dev": "keystone dev"
+    "dev": "keystone dev",
+    "start": "keystone start",
+    "build": "keystone build"
   },
   "dependencies": {
     "@keystone-6/auth": "1.0.2",
