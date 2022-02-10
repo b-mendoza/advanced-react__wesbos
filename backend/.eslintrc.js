@@ -1,13 +1,10 @@
 // @ts-check
 
 module.exports = {
-  env: { browser: true, es2021: true, node: true },
+  env: { es2021: true, node: true },
   extends: [
     'airbnb',
     'airbnb-typescript',
-    'airbnb/hooks',
-    'plugin:jsx-a11y/strict',
-    'next/core-web-vitals',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'prettier',
@@ -22,9 +19,6 @@ module.exports = {
     sourceType: 'module',
     tsconfigRootDir: __dirname,
   },
-  plugins: ['@typescript-eslint', 'html'],
+  plugins: ['@typescript-eslint'],
   root: true,
-  settings: {
-    react: { version: 'detect' },
-  },
 };
