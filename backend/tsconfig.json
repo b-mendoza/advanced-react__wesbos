@@ -9,7 +9,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "module": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "Node",
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
@@ -24,6 +24,6 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "ES6"
+    "target": "ESNext"
   }
 }
