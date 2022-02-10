@@ -7,6 +7,7 @@ module.exports = {
     'airbnb-typescript',
     'airbnb/hooks',
     'plugin:jsx-a11y/strict',
+    'next/core-web-vitals',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'prettier',
