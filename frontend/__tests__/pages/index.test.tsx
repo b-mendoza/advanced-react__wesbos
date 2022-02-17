@@ -12,7 +12,7 @@ describe('Tests to IndexPage component', () => {
   it('Renders initial JSX from `IndexPage` component', () => {
     render(<IndexPage />);
 
-    const heading = screen.getByRole('heading', { name: /hello world/i });
+    const heading = screen.getByRole('heading', { name: /index page/i });
 
     expect(heading).toBeInTheDocument();
   });

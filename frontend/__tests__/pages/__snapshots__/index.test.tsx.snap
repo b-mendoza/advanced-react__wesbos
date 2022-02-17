@@ -1,17 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tests to IndexPage component  1`] = `
-<div>
-  <h1>
-    Hello World
-  </h1>
-</div>
-`;
-
 exports[`Tests to IndexPage component Takes a Snapshot of the \`IndexPage\` component 1`] = `
 <div>
   <h1>
-    Hello World
+    Index Page
   </h1>
 </div>
 `;
